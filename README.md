@@ -1,6 +1,6 @@
 Kasa
 
-Projet permettant d'acquérir les compétences suivantes:
+Ce projet a été conçu pour permettre l'acquisition des compétences suivantes:
 -Savoir initialiser une application avec Create React App
 -Savoir configurer la navigation entre les pages de l'application avec React Router
 -Savoir développer des éléments de l'interface d'un site web grâce à des composants React
