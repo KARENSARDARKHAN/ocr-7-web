@@ -3,5 +3,5 @@ export default function _errorSet({ title, description }) {
    if (title) {
       el.innerText = `${title}`;
    } else {
-      el.innerText = Page d'erreur;
+      el.innerText = "Page d'erreur";
    }
