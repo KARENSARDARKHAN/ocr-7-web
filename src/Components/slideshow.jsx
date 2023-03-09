@@ -84,3 +84,5 @@ function Slider(product) {
       ></img>
    );
 }
+
+export default Slider;
