@@ -76,7 +76,7 @@ function Slider(product) {
             {currentIndex + 1}/{slides.length}
          </span>
       </div>
-   ) : 
+   ) : (
       <img
          src={`${slides[currentIndex]}`}
          className="slideshowOne"
