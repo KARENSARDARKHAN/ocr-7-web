@@ -322,6 +322,12 @@ section p {
    display: flex;
    justify-content: space-between;
 }
+.home {
+   display: flex;
+   flex-flow: column;
+   align-items: center;
+   margin-top: 3%;
+}
 h2 {
    font-weight: 500;
    font-size: 36px;
@@ -469,4 +475,245 @@ p {
    width: 95%;
 }
 /**/
+
+
+
+
+/*MOBILE VERSION*/
+
+@media all and (max-width: 768px) {
+   .headerLogo {
+      width: 145px;
+      height: 47px;
+   }
+   li a {
+      font-size: 13px;
+      text-transform: uppercase;
+   }
+   nav {
+      margin-top: 4%;
+   }
+   nav li {
+      padding: 0 10px 0 10px;
+   }
+   .footerCopyrights {
+      font-size: 14px;
+   }
+   .error img {
+      width: 198px;
+      height: 99px;
+   }
+   .error p {
+      font-size: 18px;
+      width: 80%;
+      margin: 20px 0;
+   }
+   .homeLink {
+      font-size: 14px;
+      text-decoration: underline;
+   }
+
+   #house {
+      margin-top: 30px;
+   }
+   .accomodationContainer {
+      flex-direction: column;
+   }
+   .accomodationLeftSide {
+      width: 100%;
+      margin: 15px 0 3px 0;
+   }
+   .accomodationRightSide {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row-reverse;
+      margin-top: 10px;
+   }
+   .accomodationOwner {
+      width: 40px;
+   }
+   .accomodationName p {
+      width: 100%;
+   }
+   h2 {
+      font-size: 23px;
+   }
+   p {
+      line-height: 142.6%;
+      font-size: 14px;
+   }
+   .accomodationTag {
+      font-size: 12px;
+      border-radius: 5px;
+   }
+   .rating img {
+      width: 20px;
+      margin: 0 5px 0 0;
+   }
+   .accomodationcontained .collapseButton {
+      border-radius: 5px;
+   }
+   .Collapsed {
+      flex-direction: column;
+   }
+   .Collapsed2 {
+      width: 100%;
+   }
+   .rating {
+      text-align: left;
+      align-self: center;
+      width: 100%;
+   }
+   .arrow {
+      height: 25px;
+   }
+   .accomodationSlideshow {
+      height: 255px;
+   }
+   .slideshowArrows {
+      border-radius: 10px;
+   }
+   .numbers {
+      display: none;
+   }
+   .accomodationTags {
+      flex-wrap: wrap;
+   }
+
+   .WelcomePanel {
+      height: 111px;
+      max-height: 223px;
+      min-height: 111px;
+      margin: 0;
+   }
+   section p {
+      font-size: 24px;
+      width: 59%;
+      left: 10%;
+   }
+   .ItemPicture {
+      width: 90%;
+      height: 100%;
+      border-radius: 25px;
+      object-fit: cover;
+      overflow: hidden;
+   }
+   .WelcomePanelPicture {
+      border-radius: 10px;
+      height: 100%;
+   }
+   .WelcomePanelPicture img {
+      height: 100%;
+   }
+   .TilesList {
+      background: none;
+      width: 100%;
+      margin: 10px;
+   }
+
+    #house {
+      margin-top: 30px;
+   }
+   .accomodationContainer {
+      flex-direction: column;
+   }
+   .accomodationLeftSide {
+      width: 100%;
+      margin: 15px 0 3px 0;
+   }
+   .accomodationRightSide {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row-reverse;
+      margin-top: 10px;
+   }
+   .accomodationOwner {
+      width: 40px;
+   }
+   .accomodationName p {
+      width: 100%;
+   }
+   h2 {
+      font-size: 23px;
+   }
+   p {
+      line-height: 142.6%;
+      font-size: 14px;
+   }
+   .accomodationTag {
+      font-size: 12px;
+      border-radius: 5px;
+   }
+   .rating img {
+      width: 20px;
+      margin: 0 5px 0 0;
+   }
+   .accomodationcontained .collapseButton {
+      border-radius: 5px;
+   }
+   .Collapsed {
+      flex-direction: column;
+   }
+   .Collapsed2 {
+      width: 100%;
+   }
+   .rating {
+      text-align: left;
+      align-self: center;
+      width: 100%;
+   }
+   .arrow {
+      height: 25px;
+   }
+   .accomodationSlideshow {
+      height: 255px;
+   }
+   .slideshowArrows {
+      border-radius: 10px;
+   }
+   .numbers {
+      display: none;
+   }
+   .accomodationTags {
+      flex-wrap: wrap;
+   }
+}
+
+
+@media all and (max-width: 630px) {
+   .Collapsible {
+      margin-top: 10px;
+   }
+   .collapseP {
+      font-size: 14px;
+   }
+   .CollapsiblePart {
+      width: 90%;
+   }
+   .collapseButton {
+      font-size: 14px;
+      padding-right: 15px;
+   }
+   .about .collapseButton {
+      padding: 0 15px 0 15px;
+   }
+   .aboutPicture {
+      display: none;
+   }
+   .aboutSecondPicture {
+      display: inherit;
+      width: 90%;
+      object-fit: contain;
+   }
+}
+/**/
+
+
+
+
+
+
+
+
+
 
