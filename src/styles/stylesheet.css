@@ -1,3 +1,5 @@
+/*DESKTOP VERSION*/
+
 body {
    margin: 0;
    color: #ffffff;
@@ -33,3 +35,438 @@ li a:hover {
    width: 210px;
 }
 /**/
+
+/*Footer*/
+.footer {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+   width: 100%;
+   height: 200px;
+   background: #000000;
+}
+.footerCopyrights {
+   margin-top: 30px;
+   font-size: 24px;
+   color: #ffffff;
+}
+/**/
+
+/*Accomodations Informations*/
+h2 {
+   font-weight: 500;
+   font-size: 36px;
+   color: #ff6060;
+   margin: 0;
+}
+p {
+   color: #ff6060;
+   margin: 10px 0 10px 0;
+}
+.accomodationLeftSide {
+   width: 70%;
+   margin: 40px 0 20px 0;
+}
+.accomodationRightSide {
+   margin: 30px 0 20px 0;
+   text-align: end;
+}
+.accomodationOwner {
+   width: 64px;
+   border-radius: 100%;
+}
+.accomodationName {
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+}
+.accomodationName p {
+   width: 46%;
+   line-height: 142.6%;
+   margin: 0 10px 0 0;
+}
+.house__div {
+   height: 100%;
+}
+.house__img {
+   position: relative;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   object-fit: cover;
+}
+.accomodationLocation {
+   font-size: 18px;
+}
+.accomodationTags {
+   display: flex;
+   align-items: center;
+}
+.accomodationTag {
+   font-size: 14px;
+   padding: 5px 22px;
+   background: #ff6060;
+   border-radius: 10px;
+   min-width: 100px;
+   text-align: center;
+   margin: 10px 10px 10px 0;
+}
+.rating img {
+   margin: 25px 0 0 7px;
+}
+/**/
+
+/*Slideshow*/
+.accomodationSlideshow {
+   width: 100%;
+   height: 415px;
+}
+.numbers {
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   height: 90%;
+   align-items: flex-end;
+   font-size: 17px;
+   position: absolute;
+   top: 50%;
+   transform: translate(0, -50%);
+}
+.slideshowArrows {
+   height: 100%;
+   position: relative;
+   overflow: hidden;
+   border-radius: 25px;
+}
+.slideshowArrowsRight {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   transform: translatex(100%);
+}
+.slideshowArrowsHidden {
+   transform: translatex(0);
+}
+.slideshowArrowsLeft {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   transform: translatex(-100%);
+}
+.right {
+   width: 100%;
+   height: 100%;
+   transition-duration: 0.6s;
+   transform: translateX(-100%);
+}
+.left {
+   width: 100%;
+   height: 100%;
+   transition-duration: 0.6s;
+   transform: translateX(100%);
+}
+.slideshowOne {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 25px;
+}
+.arrow {
+   position: absolute;
+   top: 50%;
+   transform: translate(0, -50%);
+   cursor: pointer;
+}
+.theLeftArrow {
+   left: 20px;
+   z-index: 1;
+}
+.theRightArrow {
+   right: 20px;
+   z-index: 1;
+}
+/**/
+
+/*Collapse component*/
+.Collapsed {
+   display: flex;
+   justify-content: space-between;
+}
+.Collapsed2 {
+   width: 47%;
+   margin-bottom: 30px;
+}
+.collapseArray {
+   font-family: "Montserrat";
+   font-size: 18px;
+   line-height: 142.6%;
+   color: #ff6060;
+   padding: 30px 30px 40px 15px;
+   background: #f6f6f6;
+   border-radius: 5px;
+   margin: 0;
+}
+.collapsingArray {
+   margin: 0;
+}
+.accomodationcontained .collapseButton {
+   border-radius: 10px;
+   padding: 0 15px 0 15px;
+}
+/**/
+
+/*Welcome Panel*/
+.WelcomePanel {
+   display: flex;
+   justify-content: center;
+   position: relative;
+   align-items: center;
+   width: 100%;
+   height: 150px;
+   max-height: 223px;
+   min-height: 111px;
+}
+section p {
+   position: absolute;
+   font-size: 40px;
+   font-weight: bold;
+   color: #ffffff;
+}
+.WelcomePanelPicture {
+   width: 90%;
+   height: 100%;
+   border-radius: 25px;
+   object-fit: cover;
+   overflow: hidden;
+}
+.WelcomePanelPicture img {
+   width: 100%;
+   height: 100%;
+   max-height: 223px;
+   min-height: 111px;
+   object-fit: cover;
+}
+/**/
+
+/*Accomodations tiles list*/
+.TilesList {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   background: #f6f6f6;
+   border-radius: 25px;
+   width: 90%;
+   margin: 30px;
+}
+.ItemInfo {
+   display: flex;
+   position: relative;
+   align-items: flex-end;
+   overflow: hidden;
+   max-width: 340px;
+   width: 100%;
+   height: 100%;
+   max-height: 340px;
+   margin: 2%;
+   border-radius: 10px;
+}
+.ItemTitle {
+   position: absolute;
+   width: 100%;
+   background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0.7) 100%
+   );
+}
+.ItemTitle span {
+   display: block;
+   padding: 0 20px 15px 15px;
+   font-size: 12px;
+   font-weight: bold;
+   color: #ffffff;
+}
+.ItemPicture {
+   width: 350px;
+   height: 310px;
+   object-fit: cover;
+}
+.overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 10;
+   min-height: 350px;
+   min-width: 350px;
+   background-color: none;
+   opacity: 50%;
+}
+.overlay:hover {
+   background: linear-gradient(180deg, #ff6060 85%, #000000a6 100%);
+}
+/**/
+
+/*Accomodation individual page layout*/
+
+#house {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+}
+.house {
+   width: 90%;
+}
+.accomodationContainer {
+   display: flex;
+   justify-content: space-between;
+}
+h2 {
+   font-weight: 500;
+   font-size: 36px;
+   color: #ff6060;
+   margin: 0;
+}
+p {
+   color: #ff6060;
+   margin: 10px 0 10px 0;
+}
+.accomodationLeftSide {
+   width: 70%;
+   margin: 40px 0 20px 0;
+}
+.accomodationRightSide {
+   margin: 30px 0 20px 0;
+   text-align: end;
+}
+.accomodationOwner {
+   width: 64px;
+   border-radius: 100%;
+}
+.accomodationName {
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+}
+.accomodationName p {
+   width: 46%;
+   line-height: 142.6%;
+   margin: 0 10px 0 0;
+}
+.house__div {
+   height: 100%;
+}
+.house__img {
+   position: relative;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   object-fit: cover;
+}
+.accomodationLocation {
+   font-size: 18px;
+}
+.accomodationTags {
+   display: flex;
+   align-items: center;
+}
+.accomodationTag {
+   font-size: 14px;
+   padding: 5px 22px;
+   background: #ff6060;
+   border-radius: 10px;
+   min-width: 100px;
+   text-align: center;
+   margin: 10px 10px 10px 0;
+}
+.rating img {
+   margin: 25px 0 0 7px;
+}
+/**/
+
+/*About page layout*/
+.AboutPart {
+   display: flex;
+   justify-content: center;
+   position: relative;
+   align-items: center;
+   width: 100%;
+}
+.about {
+   margin-top: 3%;
+}
+.aboutPicture {
+   width: 90%;
+}
+.aboutSecondPicture {
+   display: none;
+}
+/**/
+
+/*Collapse about page*/
+.Collapsible {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   align-items: center;
+   margin: 50px 0 50px 0;
+}
+.CollapsiblePart {
+   width: 80%;
+   margin: 15px 0 15px 0;
+}
+.collapseButton {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   background: #ff6060;
+   border-radius: 5px;
+   border-style: none;
+   height: 47px;
+   font-family: "Montserrat";
+   font-size: 18px;
+   color: #ffffff;
+   padding: 0 30px 0 15px;
+   cursor: pointer;
+}
+.collapseP {
+   font-family: "Montserrat";
+   font-size: 18px;
+   line-height: 142.6%;
+   color: #ff6060;
+   padding: 30px 30px 40px 15px;
+   background: #f6f6f6;
+   border-radius: 5px;
+   margin: 0;
+}
+/**/
+
+/*Error Page*/
+.error {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   margin: 100px 0 20px 0;
+}
+.error p {
+   font-size: 36px;
+   width: 95%;
+   margin: 50px 0;
+}
+.homeLink {
+   text-decoration: none;
+   font-size: 18px;
+   color: #ff6060;
+   margin: 100px 0;
+}
+.homeLink:hover {
+   text-decoration: underline;
+}
+.error img {
+   width: 95%;
+}
+/**/
+
