@@ -120,7 +120,7 @@ p {
 /*Slideshow*/
 .accomodationSlideshow {
    width: 100%;
-   height: 415px;
+   height: 320px;
 }
 .numbers {
    display: flex;
@@ -274,6 +274,7 @@ section p {
 .ItemTitle {
    position: absolute;
    width: 100%;
+   border-radius: 10px;
    background: linear-gradient(
       180deg,
       rgba(255, 255, 255, 0) 0%,
@@ -283,7 +284,7 @@ section p {
 .ItemTitle span {
    display: block;
    padding: 0 20px 15px 15px;
-   font-size: 12px;
+   font-size: 14px;
    font-weight: bold;
    color: #ffffff;
 }
@@ -404,6 +405,10 @@ p {
 }
 .aboutPicture {
    width: 90%;
+   height: 100%;
+   border-radius: 25px;
+   object-fit: cover;
+   overflow: hidden;
 }
 .aboutSecondPicture {
    display: none;
@@ -481,7 +486,22 @@ p {
 
 /*MOBILE VERSION*/
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 840px) {
+
+.TilesList {
+      background-color: #ffffff;
+   }
+   .ItemInfo{
+     max-width: 100%; 
+     margin: 0%;
+     margin-bottom:3%;
+   }
+    .ItemPicture {
+     width: 100%;  
+   }
+   .ItemTitle{
+   width: 100%; 
+   }
    .headerLogo {
       width: 145px;
       height: 47px;
@@ -512,7 +532,6 @@ p {
       font-size: 14px;
       text-decoration: underline;
    }
-
    #house {
       margin-top: 30px;
    }
@@ -579,7 +598,6 @@ p {
    .accomodationTags {
       flex-wrap: wrap;
    }
-
    .WelcomePanel {
       height: 111px;
       max-height: 223px;
@@ -587,31 +605,18 @@ p {
       margin: 0;
    }
    section p {
-      font-size: 24px;
-      width: 59%;
-      left: 10%;
-   }
-   .ItemPicture {
-      width: 90%;
-      height: 100%;
-      border-radius: 25px;
-      object-fit: cover;
-      overflow: hidden;
+      font-size: 40px;
+      width: 80%;
+      left: 15%;
    }
    .WelcomePanelPicture {
       border-radius: 10px;
-      height: 100%;
+      border-radius: 10px;
    }
    .WelcomePanelPicture img {
       height: 100%;
    }
-   .TilesList {
-      background: none;
-      width: 100%;
-      margin: 10px;
-   }
-
-    #house {
+   #house {
       margin-top: 30px;
    }
    .accomodationContainer {
@@ -702,7 +707,7 @@ p {
    }
    .aboutSecondPicture {
       display: inherit;
-      width: 100%;
+      width: 90%;
       object-fit: contain;
    }
 }

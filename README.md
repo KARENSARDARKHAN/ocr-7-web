@@ -16,7 +16,7 @@ npm i react-router-dom
 Si ce message d'erreur s'affiche => 
 ERROR_OSSLL_EVP_UNSUPPORTED 
 
-entrez dans le Terminal => 
+Entrez dans le Terminal => 
 export NODE_OPTIONS=--openssl-legacy-provider
 
 Puis => 
