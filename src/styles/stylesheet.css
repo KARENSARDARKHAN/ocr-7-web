@@ -229,7 +229,8 @@ p {
 }
 section p {
    position: absolute;
-   font-size: 40px;
+   font-size: 250%;
+   margin: 0%;
    font-weight: bold;
    color: #ffffff;
 }
@@ -606,11 +607,6 @@ p {
       min-height: 111px;
       margin: 0;
    }
-   section p {
-      font-size: 40px;
-      width: 80%;
-      left: 15%;
-   }
    .WelcomePanelPicture {
       border-radius: 10px;
       border-radius: 10px;
@@ -685,6 +681,13 @@ p {
       flex-wrap: wrap;
    }
 }
+@media all and (max-width: 680px) {
+
+ section p {
+      left: 10%;
+      right: 10%;
+   }
+   }
 
 
 @media all and (max-width: 630px) {
@@ -713,6 +716,13 @@ p {
       object-fit: contain;
    }
 }
+
+@media all and (max-width: 462px) {
+
+ section p {
+      font-size: 20px;
+   }
+   }
 /**/
 
 
