@@ -4,8 +4,8 @@ import WelcomePageLayout from "./Pages/homePage";
 import About from "./Pages/aboutPage";
 import Error from "./Pages/error404Page";
 import AccomodationInfo from "./Pages/accomodationInfoPage";
-import Header from "./components/header";
-import Footer from "./components/footer";
+import Header from "./Components/header";
+import Footer from "./Components/footer";
 
 function Routing() {
    return (

@@ -13,11 +13,10 @@ Afin de visualiser le projet dans votre navigateur:
 
 npm i react-router-dom
 
-Si ce message d'erreur s'affiche=> ERROR_OSSLL_EVP_UNSUPPORTED 
-entrez :
-export NODE_OPTIONS=--openssl-legacy-provider
+Si ce message d'erreur s'affiche => ERROR_OSSLL_EVP_UNSUPPORTED 
+entrez => export NODE_OPTIONS=--openssl-legacy-provider
 
-Puis : npm start
+Puis => npm start
 
 http://localhost:3000 sera automatiquement ouvert dans votre navigateur.
 

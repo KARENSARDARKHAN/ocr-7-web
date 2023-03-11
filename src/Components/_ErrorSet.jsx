@@ -1,11 +1,11 @@
-export default function _errorSet({ title, description }) {
+export default function Errorset({ title, description }) {
    const el = document.querySelector("title");
    if (title) {
       el.innerText = `${title}`;
    } else {
       el.innerText = "Page d'erreur";
-  }
-  
+   }
+
    const desc = document.querySelector("meta[name='description']");
    if (description) {
       desc.setAttribute("content", description);

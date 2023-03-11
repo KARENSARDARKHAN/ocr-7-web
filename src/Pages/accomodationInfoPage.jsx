@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import Products from "../api/list.json";
-import Slider from "../components/slideshow";
-import Evaluation from "../components/stars";
-import CollapseTool from "../components/collapse";
-import _errorSet from "../components/_ErrorSet";
+import Slider from "../Components/slideshow";
+import Evaluation from "../Components/stars";
+import CollapseTool from "../Components/collapse";
+import Errorset from "../Components/_ErrorSet";
 import "../styles/stylesheet.css";
 
 export default function AccomodationInfo() {
@@ -27,10 +27,11 @@ export default function AccomodationInfo() {
                      key={product.id - index}
                      className="accomodationcontained"
                   >
-                     <_errorSet
+                     <Errorset
                         title={product.title}
-                        description={product.description} />
-                     
+                        description={product.description}
+                     />
+
                      <div className="accomodationSlideshow">
                         <Slider data={product.pictures} />
                      </div>
@@ -57,13 +58,13 @@ export default function AccomodationInfo() {
                               <img
                                  className="accomodationOwner"
                                  src={product.host.picture}
-                                 alt="Owner of the accomodation"/>
+                                 alt="Owner of the accomodation"
+                              />
                            </div>
 
                            <div className="rating">
                               <Evaluation rate={product.rating} />
                            </div>
-
                         </div>
                      </div>
 
@@ -71,15 +72,16 @@ export default function AccomodationInfo() {
                         <div className="Collapsed2">
                            <CollapseTool
                               title={"Description"}
-                              txt={product.description}/>
+                              txt={product.description}
+                           />
                         </div>
 
                         <div className="Collapsed2">
                            <CollapseTool
                               title={"Équipements"}
-                              txtArray={product.equipments}/>
+                              txtArray={product.equipments}
+                           />
                         </div>
-
                      </div>
                   </div>
                )

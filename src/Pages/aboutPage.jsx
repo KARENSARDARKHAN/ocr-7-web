@@ -1,8 +1,8 @@
 import React from "react";
 import AboutPanel from "../assets/About.png";
 import AboutPanelMobile from "../assets/AboutPanelMobile.png";
-import CollapseTool from "../components/collapse";
-import _errorSet from "../components/_ErrorSet";
+import CollapseTool from "../Components/collapse";
+import Errorset from "../Components/_ErrorSet";
 import "../styles/stylesheet.css";
 
 export default function About() {
@@ -30,7 +30,7 @@ export default function About() {
    ];
    return (
       <div className="about">
-         <_errorSet
+         <Errorset
             title="A Propos de Kasa"
             description="Kasa c'est avant tout de la fiabilité, du respect, un service de qualité et une sécurité mise en avant"
          />
