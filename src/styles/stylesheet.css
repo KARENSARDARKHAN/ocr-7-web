@@ -250,6 +250,7 @@ section p {
 /**/
 
 /*Accomodations tiles list*/
+
 .TilesList {
    display: flex;
    flex-wrap: wrap;
@@ -299,12 +300,13 @@ section p {
    left: 0;
    z-index: 10;
    min-height: 350px;
-   min-width: 350px;
+   min-width: 900px;
    background-color: none;
    opacity: 50%;
 }
 .overlay:hover {
-   background: linear-gradient(180deg, #ff6060 85%, #000000a6 100%);
+   background: 
+   linear-gradient(180deg, #ff6060 85%, #000000a6 100%);
 }
 /**/
 
