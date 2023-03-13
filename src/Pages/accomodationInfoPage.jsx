@@ -10,11 +10,11 @@ import "../styles/stylesheet.css";
 export default function AccomodationInfo() {
    const params = useParams();
 
-   const CreateList = useNavigate();
+   const Navigate = useNavigate();
    useEffect(() => {
       let product = Products.find((product) => params.id === product.id);
       if (!product) {
-         CreateList("/error");
+         Navigate("/error");
       }
    });
 
